@@ -1,0 +1,12 @@
+age=input("შეიყვანეთ რამდენი წლის ხართ")
+gender=input("female male თუ none")
+if gender ==("male") and age>65:
+    print("თქვენ პენსია გეკუთვნით")
+else:
+    print("თქვენ პენსია არ გეკუთვნით.")
+
+if gender =="female" or "Female" and age>=str(60):
+    print ("თქვენ გეკუთვნით პენსია")
+else:
+    print("თქვენ არ გეკუთვნით პენსია")
+        

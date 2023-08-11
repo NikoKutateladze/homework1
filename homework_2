@@ -1,0 +1,7 @@
+age=input("შენი ასაკი:")
+fathers_Age=input("მამაშენის ასაკი:")
+
+if int(fathers_Age)//2==int(age):
+    print("Bingo")
+else:
+    print("Mouse")
