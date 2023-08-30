@@ -1,8 +1,10 @@
-a=1
-if a<a:
-    a=a-1
-while a>0:
-    a=a+2
-    print(a)
-    while a>98:
-        a=a
+favoritebook=('Sherlok Homles')
+print(favoritebook+'=')
+print(favoritebook[8:11]+favoritebook[12:13])
+favoritebook2=('small prince')
+print(favoritebook2+'=')
+print(favoritebook2[1:5])
+favoritebook3=('wimpy kid')
+print(favoritebook3+'=')
+print(favoritebook3[6:9])
+print(favoritebook3[3:5])
