@@ -1,0 +1,57 @@
+body {
+    font-family:"poppins" sans-serif;
+    font-weight: 600;
+}
+img {
+    width:100vh;
+    height: 100vh;
+}
+
+p,h1,h2,h3,h4 {
+    color: white;
+}
+a {
+    color: aqua;
+    font-size: 100px;
+
+}
+img {
+    border-radius: 400px;
+    outline: white;
+    
+
+}
+.Background {
+    filter:blur(5px);
+}
+.kr h1 {
+    background-color: green;
+    border-radius: 40px;
+    padding: 30px 0px;
+}
+
+.Title h1 {
+    background-color: green;
+    outline: solid 5px;
+    color: rgb(197, 255, 97);
+    border-radius:40px ;
+    padding: 30px 5px;
+    box-shadow:black;
+    
+
+}
+.Title h1 {
+    width:30%;
+    text-align: center;
+    
+}
+.input-box input {
+    
+    width: 450px;
+    height: 50px;
+    border: solid 5px rgb(255, 255, 255);
+    border-radius: 40px;
+    margin: 5px;
+    
+}
+
