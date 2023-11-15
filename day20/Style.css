@@ -1,0 +1,72 @@
+
+* {
+    font-family:"Roboto" , sans-serif;
+    
+}
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:#004b27;
+}
+.wrapper {
+    box-sizing: border-box;
+    border-radius:10px;
+    box-shadow: 1px 1px 40px #8bca70,
+                1px 1px 80px #96b18b;
+    outline: solid 1px  #5eaf3e;
+    padding: 50px;
+    background: #4CB121 linear-gradient(#4CB121 , #02fc87);
+}
+.inputbox1 input {
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;  
+}
+.inputbox2 input {
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+}
+.inputbox3 input {
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+}
+.inputbox4 input {
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+}
+.inputbox5 input {
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+}
+.inputbox6 input {
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+}
+select {
+    margin-left:60%;
+
+}
+button {
+    font-size:20px;
+    text-align: center;
+    width: 90%;
+    height: 40px;
+    margin-left: 6%;
+    border-radius: 10px;
+    outline: none;
+    background:#70d246 ;
+}
+button:hover {
+    width:95%;
+    height:40px;
+    margin-left: 4%;
+    outline: #004b27;
+    background: #47aa1d;
+}
