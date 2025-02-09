@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron:regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Audiowide:regular);
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P:regular);
+
+.hidden {
+    display: none;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(-45deg, #ffcc00, #ff6600, #6b4700);
+    background-size: 400% 400%;
+    animation: moveBackground 8s infinite alternate;
+    height: 100vh;
+    user-select: none;
+}
+
+@keyframes moveBackground {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+h2 {
+    color: #2c2c2c;
+    font-family: 'Orbitron';
+    font-size: 3rem;
+    font-weight:800 ;
+    margin: 0;
+}
+
+button:active {
+    filter:brightness(50%);
+}
+
+span, p {
+    font-family: 'Exo';
+    color:#00ffff;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+}
+button {
+    background: transparent;
+    border: 2px solid #1f1f1f;
+    color: #1f1f1f;
+    font-weight: 800;
+    transition: 0.3s;
+    font-family: 'Audiowide';
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 14px;
+    text-transform: uppercase;
+    border: solid 6px;
+    margin-top: 20px;
+}
+button:hover {
+    color:#312700;
+    box-shadow:0 0 8px #312700;
+    border-color: #403300;
+}
+
+input {
+    background-color: transparent;
+    padding: 10px 15px;
+    text-align: center;
+    color: #1f1f1f;
+    font-size: 1.6rme;
+    font-family: 'orbitron';
+    border: solid 5px #1f1f1f;
+    caret-color: #1f1f1f;
+    transition: .5s;
+}
+input::placeholder {
+    color: #1f1f1f;
+    font-size: .7rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+input:focus {
+    box-shadow: 0 0 12px #312700;
+    border-color: #312700;
+}
